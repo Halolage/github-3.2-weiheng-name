@@ -11,8 +11,7 @@ This repository provides an overview of common Git commands and their usage.
 - [Basic Commands](#basic-commands)
 - [Branching and Merging](#branching-and-merging)
 - [Remote Repositories](#remote-repositories)
-- [Getting warm](#getting-cold)
-
+- [GitHub Authentication](#github-authentication)
 
 
 ## Getting Started
@@ -89,10 +88,23 @@ Pull changes from a remote repository into the current branch.
 
 Fetch changes from a remote repository without merging.
 
+## GitHub Authentication
+
+GitHub authentication is the process of verifying the identity of users accessing a GitHub repository or interacting with GitHub services. It ensures that only authorized individuals can perform actions such as pushing code, creating issues, or commenting on pull requests.
+
+GitHub provides several methods for authentication, allowing users to choose the one that best suits their needs:
+
+**Username and Password:** The traditional method is to authenticate using a username and password. This method is suitable for individuals working with their own repositories or small teams.
+
+__Personal Access Tokens:__ Personal access tokens (PATs) provide an alternative way to authenticate with GitHub. They are randomly generated tokens that can be used in place of a password. PATs offer more granular control over the permissions granted and can be used for automation or accessing the GitHub API.
+
+__SSH Keys:__ Secure Shell (SSH) keys are a popular authentication method for developers. With SSH keys, you generate a public-private key pair and associate the public key with your GitHub account. This method offers secure and convenient access without the need to enter a password each time.
+
+__OAuth Apps:__ OAuth (Open Authorization) is an industry-standard protocol for authorization. GitHub allows developers to create OAuth apps, which enable users to authenticate using their GitHub credentials while granting controlled access to their repositories or organization resources.
+
 ## Conclusion
 
-This README provides an overview of common Git commands and their usage. Feel free to explore more advanced Git features and commands based on your specific needs.
+This README provides an overview of common Git commands, their usage and overview of GitHub Authentication process and methods. Feel free to explore more advanced Git features and commands based on your specific needs.
 
 For detailed information, refer to the official Git documentation: [https://git-scm.com/doc](https://git-scm.com/doc).
 
-## Getting cold
